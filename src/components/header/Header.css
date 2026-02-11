@@ -1,6 +1,17 @@
-.header-main {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+.header-main{
+    height: 4em;
+    width: 100%;
+    background-color: pink;
+
+}
+
+.header-logo img{
+    object-fit: contain;
+    height: 100%;
+    width: 4em;
+}ç
+
+.header-side-menu{
+    background-color: pink;
+    width: 10em;
 }
