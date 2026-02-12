@@ -10,12 +10,12 @@ function Header() {
     <header className="header">
       <div className="logo">
         <Link to="/">
-          <img src="/RealShoes.jpg" alt="RealShoes Logo" />
+          <img src="/logo.jpg" alt="PicturesKacper Logo" />
         </Link>
       </div>
 
       <div className="menu-toggle" onClick={toggleMenu}>
-        ☰
+        <img src="../public/hamburger.png" alt="hamburger"/>
       </div>
 
       <nav className={`nav-menu ${menuOpen ? "open" : ""}`}>

@@ -1,9 +1,15 @@
+import React from 'react';
+import './Home.css';
+
 function Home() {
     return (
-        <div className="home-main">
-            <h1>Bienvenido a mi página de fotos</h1>
-            <p>Aquí encontrarás una colección de mis mejores fotografías.</p>
+        <div className="home">
+            <h1>Bienvenido a PicturesKacper</h1>
+            <p>Explora nuestra colección de fotos impresionantes.</p>
+            
         </div>
+
+
     );
 }
 export default Home;
