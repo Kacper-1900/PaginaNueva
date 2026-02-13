@@ -15,7 +15,7 @@ function Header() {
       </div>
 
       <div className="menu-toggle" onClick={toggleMenu}>
-        <img src="/public/hamburger.png" alt="hamburger"/>
+        <img src="/public/hamburger.png" alt="hamburger" className="hamburger-menu"/>
       </div>
 
       <nav className={`nav-menu ${menuOpen ? "open" : ""}`}>
