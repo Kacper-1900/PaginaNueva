@@ -5,38 +5,35 @@
   <h3 align="center">PicturesKacper Studio</h3>
 
   <p align="center">
-    Sitio web profesional para estudio fotográfico desarrollado con React.
+    Professional web for photographic study made with React. 
     <br />
-    <a href="https://github.com/Kacper-1900/PaginaNueva"><strong>Explorar el proyecto »</strong></a>
+    <a href="https://github.com/Kacper-1900/PaginaNueva"><strong>Explore proyect »</strong></a>
     <br />
     <br />
     <a href="#">Ver Demo</a>
     &middot;
-    <a href="https://github.com/Kacper-1900/PaginaNueva/issues">Reportar Bug</a>
+    <a href="https://github.com/Kacper-1900/PaginaNueva/issues">Report Bug</a>
     &middot;
-    <a href="https://github.com/Kacper-1900/PaginaNueva/issues">Solicitar Feature</a>
+    <a href="https://github.com/Kacper-1900/PaginaNueva/issues">Request Feature</a>
   </p>
 </div>
 
 ---
 
 <details>
-  <summary>Tabla de Contenidos</summary>
+  <summary>Content</summary>
   <ol>
-    <li><a href="#sobre-el-proyecto">Sobre el Proyecto</a></li>
-    <li><a href="#tecnologías-utilizadas">Tecnologías Utilizadas</a></li>
-    <li><a href="#empezando">Empezando</a></li>
-    <li><a href="#estructura-del-proyecto">Estructura del Proyecto</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contribuciones">Contribuciones</a></li>
-    <li><a href="#licencia">Licencia</a></li>
-    <li><a href="#contacto">Contacto</a></li>
+    <li><a href="#about-the-proyect">About the proyect</a></li>
+    <li><a href="#tools-used">Tools used</a></li>
+    <li><a href="#contributions">Contributions</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#how-to-initialize-web">How to initialize web</a></li>
   </ol>
 </details>
 
 ---
 
-## 📌 Sobre el Proyecto
+## 📌 About the proyect
 PicturesKacper is a modern webSite for profesional photography studio.
 It includes:
 
@@ -51,7 +48,7 @@ My objective is to offer a profesional digital presence, where you can enjoy and
 
 ---
 
-## 🚀 Tecnologías Utilizadas
+## 🚀 Tools used
 
 - React
 - Vite
@@ -61,7 +58,18 @@ My objective is to offer a profesional digital presence, where you can enjoy and
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🙌 Contributions
+
+First of all I would like to thank my friend Saul Hernández González because he helped me in the beggining of the proyect. Also I would like to say that my footer has a little inspiration from <a href="https://www.figma.com/es-es/ ">Figma</a> finally this template was inspired by this <a href="https://github.com/othneildrew/Best-README-Template">github template.</a>
+
+## 😀 Contact
+
+Via mail: info@pictureskacper.com
+Phone number: +34 600 000 000
+Or either you can contact me from my web page in the site "Contact"
+
 ---
+
 
 ### How to initialize web
 - Follow this steps and you'll get it quicker than you think
