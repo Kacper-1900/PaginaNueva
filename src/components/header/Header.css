@@ -51,7 +51,7 @@
   transition: all 0.3s ease;
 }
 
-/* Móvil */
+/* Responsive Móvil */
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;

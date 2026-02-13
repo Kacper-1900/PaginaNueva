@@ -1,15 +1,67 @@
-.about{
+.about-me-content {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
-.about h1 {
+
+.about-me-content h1 {
     color: #000000;
     margin-bottom: 20px;
 }
-.about p {
+
+.about-me-content p {
     text-align: justify;
     line-height: 1.6;
     color: #000000;
     margin-bottom: 15px;
+}
+
+.about-me-content img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.about-proyect {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-proyect h1 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.about-proyect p {
+    text-align: justify;
+    line-height: 1.6;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.about-team {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-team h1 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.about-team p {
+    text-align: justify;
+    line-height: 1.6;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.about-team img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
 }

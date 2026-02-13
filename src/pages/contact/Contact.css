@@ -52,3 +52,13 @@ button {
 button:hover {
   background-color: #02d5ff;
 }
+.success-message {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #d4edda;
+    color: #155724;
+    border-radius: 5px;
+    font-weight: 500;
+    text-align: center;
+}
+

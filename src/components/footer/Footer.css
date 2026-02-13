@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,15 +10,23 @@
     padding-top: 40px;
 }
 
-/* NUEVA ZONA SUPERIOR */
+/* ZONA SUPERIOR */
 .footer-top {
     width: 90%;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     gap: 40px;
     margin-bottom: 40px;
+    flex-wrap: nowrap;
 }
+
+.footer-top>div {
+    flex: 1; /* cada columna ocupa el mismo ancho */
+    min-width: 180px;
+}
+
 
 .footer-top h3 {
     color: #02d5ff;
@@ -37,17 +45,19 @@
     flex-direction: column;
     gap: 5px;
 }
+
 .footer-company p {
     margin: 5px 0;
 }
 
 
 /* CONTACTO */
-.footer-contact{
+.footer-contact {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
+
 .footer-contact p {
     margin: 5px 0;
 }
@@ -62,20 +72,8 @@
 
 .footer-social {
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    padding: 20px 0;
-}
-
-.footer-links {
-    text-align: center;
-    padding-bottom: 20px;
-}
-.footer-links a {
-    color: #ccc;
-    text-decoration: none;
-    margin: 0 10px;
-    transition: color 0.2s;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .social-item img {
@@ -87,13 +85,12 @@
 /* RESPONSIVE MOVIL*/
 @media (max-width: 768px) {
     .footer-top {
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
     }
-    .gallery-grid {
-        grid-template-columns: repeat(2, 1fr);
+
+    .footer-social {
+        align-items: center;
     }
-    
 }
-
-
