@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import Maps from "../maps/Maps";
 
 function Footer() {
     return (
@@ -7,19 +8,7 @@ function Footer() {
 
             {/* NUEVA ZONA SUPERIOR */}
             <div className="footer-top">
-                {/* MAPA */}
-                <div className="footer-map">
-                    <h3>Nuestra Ubicación</h3>
-                    <iframe
-                        title="map"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021..."
-                        width="100%"
-                        height="200"
-                        style={{ border: 0 }}
-                        allowFullScreen=""
-                        loading="lazy"
-                    ></iframe>
-                </div>
+
                 {/* EMPRESA */}
                 <div className="footer-company">
                     <h3>Empresa</h3>
@@ -29,6 +18,12 @@ function Footer() {
                     <p>Blog</p>
                 </div>
 
+                {/* MAPA */}
+                <div className="footer-map">
+                    <h3>Nuestra Ubicación</h3>
+                    <Maps />
+                </div>
+                
                 {/* CONTACTO */}
                 <div className="footer-contact">
                     <h3>Contacto</h3>

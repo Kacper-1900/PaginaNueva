@@ -1,7 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
@@ -57,6 +57,7 @@
     display: block;
   }
 
+  
   .nav-menu {
     position: absolute;
     top: 70px;
@@ -67,7 +68,7 @@
     display: none;
     padding: 15px;
     border-radius: 4px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   }
 
   .nav-menu.open {

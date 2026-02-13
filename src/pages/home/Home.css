@@ -1,16 +1,12 @@
-.home-main {
+.home {
     padding: 20px;
     text-align: center;
 }
-.home-main h1 {
-    color: #333;
+.home h1 {
+    color: #02d5ff;
     margin-bottom: 10px;
 }
-.home-main p {
-    color: #666;
-    font-size: 18px;
-    margin-bottom: 20px;
-}
+
 .image-box {
     display: flex;
     flex-wrap: wrap;

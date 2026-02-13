@@ -9,41 +9,40 @@ function Home() {
                 name: "Beauty of Nature",
                 description: "Beautiful landscape photography",
                 photographer: "Kacper",
-                image: ""
+                image: "/public/nature.png"
             },
             {
                 id: 2,
                 name: "City Lights",
                 description: "Urban photography at night",
                 photographer: "Kacper",
-                image: ""
+                image: "/public/city.png"
             },
             {
                 id: 3,
                 name: "Portrait of a Stranger",
                 description: "Capturing the essence of a person",
                 photographer: "Josephine",
-                image: ""
+                image: "/public/stranger.png"
             },
             {
                 id: 4,
                 name: "Wildlife Wonders",
                 description: "Stunning wildlife photography",
                 photographer: "Laura",
-                image: ""
+                image: "/public/wildlife.png"
             },
             {
                 id: 5,
                 name: "Abstract Art",
                 description: "Creative and unique abstract photography",
                 photographer: "Michael",
-                image: ""
+                image: "/public/abstract.png"
             }
         ];  
     return (
         <div className = "home" >
-            <h1>Bienvenido a PicturesKacper</h1>
-            <p>Explora nuestra colección de fotos impresionantes.</p>
+            <h1>PicturesKacper</h1>
             <div className="image-box">
                 {images.map((image) => (
                     <div key={image.id} className="image-card">
