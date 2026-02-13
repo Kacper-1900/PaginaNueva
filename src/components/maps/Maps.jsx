@@ -1,24 +1,17 @@
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import 'leaflet/dist/leaflet.css';
-import './Maps.css';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import 'leaflet/dist/leaflet.css'
 
-function Maps() {
-    return (
-        <div className="maps">
-            <h2>Mapa de Ubicación</h2>
-            <MapContainer center={[40.7128, -74.0060]} zoom={13} scrollWheelZoom={false} className="map-container">
-                <TileLayer
-                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                />
-                <Marker position={[40.7128, -74.0060]}>
-                    <Popup>
-                        Estamos aquí: Nueva York, EE.UU.
-                    </Popup>
-                </Marker>
-            </MapContainer>
-        </div>
-    );
+export default function Maps() {
+  return (
+    <MapContainer center={[40.4168, -3.7038]} zoom={13} style={{ height: "200px", width: "100%" }}>
+      <TileLayer
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      />
+      <Marker position={[40.4168, -3.7038]}>
+        <Popup>
+          Nuestra ubicación
+        </Popup>
+      </Marker>
+    </MapContainer>
+  )
 }
-
-export default Maps;

@@ -1,44 +1,92 @@
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 30px;
-  background-color: #222;
-  color: #fff;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  flex-direction: column;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+.footer {
+    background: #2d2d2d;
+    color: #ccc;
+    padding-top: 40px;
+}
+
+/* NUEVA ZONA SUPERIOR */
+.footer-top {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-top h3 {
+    color: #02d5ff;
+    margin-bottom: 15px;
+}
+
+
+/* MAPA */
+.footer-map iframe {
+    border-radius: 6px;
+}
+
+/* EMPRESA */
+.footer-company p {
+    margin: 5px 0;
+}
+
+/* CONTACTO */
+.footer-contact p {
+    margin: 5px 0;
+}
+
+/* ZONA INFERIOR */
 .footer-legal {
-  margin-bottom: 15px;
+    text-align: center;
+    padding: 15px;
+    background: #1f1f1f;
 }
 
 .footer-social {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 0;
 }
 
-.social-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.footer-links {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.2s;
+}
+.footer-links a:hover {
+    color: #f4b400;
+}   
+
+.social-item img {
+    width: 24px;
+    height: 24px;
+    filter: invert(100%) sepia(100%) grayscale(100%) brightness(100%);
+    transition: filter 0.2s;
+}
+.social-item img:hover {
+    filter: invert(100%) sepia(100%) grayscale(100%) brightness(200%);
 }
 
-.social-item span {
-  margin-bottom: 5px;
-  font-size: 14px;
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .footer-top {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-.footer-social img {
-  width: 30px;
-  height: 30px;
-  transition: transform 0.2s;
-}
-
-.footer-social img:hover {
-  transform: scale(1.2);
-}
