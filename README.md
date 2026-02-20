@@ -10,8 +10,6 @@
     <a href="https://github.com/Kacper-1900/PaginaNueva"><strong>Explore proyect »</strong></a>
     <br />
     <br />
-    <a href="#">Ver Demo</a>
-    &middot;
     <a href="https://github.com/Kacper-1900/PaginaNueva/issues">Report Bug</a>
     &middot;
     <a href="https://github.com/Kacper-1900/PaginaNueva/issues">Request Feature</a>
