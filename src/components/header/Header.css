@@ -16,6 +16,7 @@
   z-index: 1000;
 }
 
+
 .logo img {
   height: 50px;
 }
@@ -46,7 +47,6 @@
 .hamburger-menu {
   width: 25px;
   height: 3px;
-
   margin: 5px 0;
   transition: all 0.3s ease;
 }
