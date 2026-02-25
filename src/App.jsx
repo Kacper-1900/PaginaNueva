@@ -6,8 +6,10 @@ import About from './pages/about/About.jsx'
 import Contact from './pages/contact/Contact.jsx'
 import Privacy from './pages/privacy/Privacy.jsx'
 import Terms from './pages/terms/Terms.jsx'
+import Consultancy from './pages/consultancy/Consultancy.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/consultancy" element={<Consultancy />}/>
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
           </Routes>
