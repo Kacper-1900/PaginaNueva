@@ -1,0 +1,87 @@
+/* Contenedor principal */
+.consultancy-list-main-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Texto informativo */
+.consultancy-info {
+    background-color: #f2f2f2;
+    padding: 12px;
+    border-left: 4px solid #4CAF50;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* Buscador */
+.consultancy-search {
+    margin-bottom: 20px;
+}
+
+/* Inputs generales */
+.rounded-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Botón submit */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Formulario */
+.consultancy-form-container {
+    margin-bottom: 30px;
+}
+
+/* Lista */
+.consultancy-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Item individual */
+.consultancy-item {
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s ease;
+}
+
+.consultancy-item:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Icono eliminar */
+.delete-consultance {
+    color: #c0392b;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.2s ease;
+}
+
+.delete-consultance:hover {
+    color: #e74c3c;
+    transform: scale(1.1);
+}

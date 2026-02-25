@@ -1,4 +1,4 @@
-import db from "../Firebase";
+import db from "../FireBase.js";
 import { ref, get, remove, push } from "firebase/database";
 
 const dbRef = ref(db, "/PicturesKacper");

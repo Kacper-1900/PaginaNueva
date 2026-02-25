@@ -6,9 +6,10 @@ import About from './pages/about/About.jsx'
 import Contact from './pages/contact/Contact.jsx'
 import Privacy from './pages/privacy/Privacy.jsx'
 import Terms from './pages/terms/Terms.jsx'
+import Consultancy from './pages/consultancy/Consultancy.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import Consultancy from './consultancy-service/Consultancy.js'
+
 
 function App() {
   return (
