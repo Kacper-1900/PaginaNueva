@@ -24,7 +24,7 @@
     <li><a href="#about-the-proyect">About the proyect</a></li>
     <li><a href="#tools-used">Tools used</a></li>
     <li><a href="#contributions">Contributions</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact">COnsul</a></li>
     <li><a href="#how-to-initialize-web">How to initialize web</a></li>
   </ol>
 </details>
@@ -37,9 +37,10 @@ It includes:
 
 - Navbar responsive with hamburger menu.
 - Page with information about myself, about the proyect and about the team
-- Contact page with form
+- Consultancy page with form 
 - Footer responsive with map
 - Responsive design for phones
+- Services page with the services we offer
 
 My objective is to offer a profesional digital presence, where you can enjoy and admire my colleagues' and my pictures.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -53,18 +54,19 @@ My objective is to offer a profesional digital presence, where you can enjoy and
 - React Router
 - CSS3 (Flexbox & Responsive Design)
 - JavaScript 
+- Firebase database
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙌 Contributions
 
-First of all I would like to thank my friend Saul Hernández González because he helped me in the beggining of the proyect. Also I would like to say that my footer has a little inspiration from <a href="https://www.figma.com/es-es/ ">Figma</a> finally this template was inspired by this <a href="https://github.com/othneildrew/Best-README-Template">github template.</a>
+First of all I would like to thank my friend Saul Hernández González because he helped me in the beggining of the proyect. Also I would like to say that my footer has a little inspiration from <a href="https://www.figma.com/es-es/ ">Figma</a> finally this template was inspired by this <a href="https://github.com/othneildrew/Best-README-Template">github template.</a> Also my Services page was inspired by the <a href="https://3commarketing.com/servicios-de-marketing-en-canarias/">3com squad</a> services page. 
 
 ## 😀 Contact
 
 Via mail: info@pictureskacper.com
 Phone number: +34 600 000 000
-Or either you can contact me from my web page in the site "Contact"
+Or either you can contact me from my web page in the site "Consultas"
 
 ---
 
@@ -76,6 +78,7 @@ Or either you can contact me from my web page in the site "Contact"
 - Node.js (v18 or higher)
 - cd pictures
 - npm install
+- npm install firebase
 - npm run dev
 - click localHost link
 - done 👍
