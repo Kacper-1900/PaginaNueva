@@ -1,13 +1,9 @@
-/* Contenedor principal */
 .app-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-
-/* Contenido principal */
 .main-content {
   flex: 1;
-  padding: 20px;
   background-color: #f5f5f5;
 }
