@@ -81,6 +81,7 @@ function Consultancy() {
             </div>
 
             <div className="consultancy-form-container">
+                <h1>¿Que necesitas?</h1>
                 <form id="consultancy-form" onSubmit={addConsultance} ref={refForm}>
                     <input className="rounded-input" type="text" name="question" placeholder="Pregunta" required />
                     <input className="rounded-input" type="text" name="description" placeholder="descripcion" required />

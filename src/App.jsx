@@ -3,7 +3,7 @@ import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
 import Home from './pages/home/Home.jsx'
 import About from './pages/about/About.jsx'
-import Contact from './pages/contact/Contact.jsx'
+import Services from './pages/services/Services.jsx'
 import Privacy from './pages/privacy/Privacy.jsx'
 import Terms from './pages/terms/Terms.jsx'
 import Consultancy from './pages/consultancy/Consultancy.jsx'
@@ -21,7 +21,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/services" element={<Services/>}/>
             <Route path="/consultancy" element={<Consultancy />}/>
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
