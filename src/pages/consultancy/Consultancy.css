@@ -1,4 +1,3 @@
-/* Contenedor principal */
 .consultancy-list-main-container {
     max-width: 800px;
     margin: 40px auto;
@@ -6,21 +5,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Texto informativo */
 .consultancy-info {
     background-color: #f2f2f2;
     padding: 12px;
-    border-left: 4px solid #4CAF50;
+    border-left: 4px solid #02d5ff;
     margin-bottom: 20px;
     font-size: 14px;
 }
 
-/* Buscador */
 .consultancy-search {
     margin-bottom: 20px;
 }
 
-/* Inputs generales */
 .rounded-input {
     width: 100%;
     padding: 10px;
@@ -31,9 +27,8 @@
     box-sizing: border-box;
 }
 
-/* Botón submit */
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #02d5ff;
     color: white;
     border: none;
     cursor: pointer;
@@ -42,22 +37,19 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #02d5ff;
 }
 
-/* Formulario */
 .consultancy-form-container {
     margin-bottom: 30px;
 }
 
-/* Lista */
 .consultancy-list {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-/* Item individual */
 .consultancy-item {
     background-color: #ffffff;
     padding: 12px;
@@ -73,7 +65,6 @@ input[type="submit"]:hover {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Icono eliminar */
 .delete-consultance {
     color: #c0392b;
     cursor: pointer;

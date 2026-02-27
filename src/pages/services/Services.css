@@ -1,0 +1,87 @@
+
+.services-wrapper {
+    background-color: #000;
+    min-height: 100vh;
+    padding: 60px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.services-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 30px;
+}
+
+.hero-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    background-color: #00cbf4;
+    padding: 8px 18px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.service-card {
+    width: 320px;
+    height: 220px;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
+
+.service-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 14px;
+}
+
+.icon {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.blue {
+  background-color: #3b82f6;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.purple {
+  background-color: #9333ea;
+}
+
+.green {
+  background-color: #059669;
+}
